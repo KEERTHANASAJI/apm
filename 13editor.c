@@ -1,5 +1,11 @@
 /*
-   Algorithm
+Name       :Keerthana V
+RollNo     :8
+Date       :
+Q.No       :13
+Title      :Text Editor: Substring Insertion
+Aim        :Create a text editor program that allows a user to insert a given substring at a specified position within an existing string of text. This tool can help in editing and updating documents or code.
+Algorithm 
 Step1:Start.
 Step2:Declare variables p, l, l, subl, i.
 Step3:Declare strings str and sub.
@@ -44,5 +50,4 @@ morning
 Enter position
 4
 After insertion goodmorningall
-
 */
