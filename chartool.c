@@ -1,5 +1,11 @@
 /*
-   Algorithm
+Name       :Keerthana V
+RollNo     :8
+Date       :
+Q.No       :1
+Title      :Character Analysis Tool 
+Aim        :Write a program to develop a simple text analysis tool that takes an input string and categorizes each character as a vowel, consonant, or other (special character, number, etc.) using a switch statement.
+Algorithm
    step 1:Start
    Step 2:Declare a character arraystr[20] and integer i
    Step 3:Display "Text Analysis Tool"
