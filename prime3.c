@@ -7,23 +7,23 @@ Title      :Efficient Prime Number Generation
 Aim        :Implement the Sieve of Eratosthenes algorithm to generate a list of prime numbers up to a specified upper limit (e.g., 10,000). This list will be used for efficient lookups in a mathematical application.
 Algorithm 
 Step1. Start.
-2. Read the limit `n`.
-3. Declare a Boolean array `pr[100]`.
-4. Set `pr[0]` to `0` and `pr[1]` to `0`.
-5. Initialize `i` to `2`.
-6.Check whether i<=n if yes step7 else step9
-7. Set `pr[i]` to `1` .
-8.Increment i goto step6
-9.Initialize `i` to `2`.
-10.Check whether `i*i < n` if yes step11 else step17
-11. Check whether `pr[i]` is `1`.
-12. Set `j` to `i*i`.
-13Check whether j<=n if yes step7 else step16
-14. Set `pr[j]` to `0`.
-15. Increment `j` by `i`.
-16. Increment `i`.
-17. Check each number from `2` to `n`.
-18. Display the number if `pr[i]` is `1`.
+Step2. Read the limit `n`.
+Step3. Declare a Boolean array `pr[100]`.
+Step4. Set `pr[0]` to `0` and `pr[1]` to `0`.
+Step5. Initialize `i` to `2`.
+Step6. Check whether i<=n if yes step7 else step9
+Step7. Set `pr[i]` to `1` .
+Step8. Increment i goto step6
+Step9. Initialize `i` to `2`.
+Step10. Check whether `i*i < n` if yes step11 else step17
+Step11. Check whether `pr[i]` is `1`.
+Step12. Set `j` to `i*i`.
+Step13. Check whether j<=n if yes step7 else step16
+Step14. Set `pr[j]` to `0`.
+Step15. Increment `j` by `i`.
+Step16. Increment `i`.
+Step17. Check each number from `2` to `n`.
+Step18. Display the number if `pr[i]` is `1`.
 Step19.Stop
 
 Code*/
