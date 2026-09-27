@@ -4,7 +4,7 @@ RollNo     :8
 Date       :
 Q.No       :14
 Title      :Recursion-Based Sentence Reversal for Voice Transcription
-Aim        :To write a C program to reverse the words of a sentence using recursion.
+Aim        :Write a program that reverses the words of a sentence, using recursion. This could be applied in a speech-to-text application where the order of words needs to be reversed for analysis.
 Algorithm  
 Step 1. Start
 Step 2. Declare a character array `str[50]`.
