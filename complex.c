@@ -1,5 +1,11 @@
 /*
- Algorithm
+Name       :Keerthana V
+RollNo     :8
+Date       :
+Q.No       :15
+Title      :Complex Number Calculator for Engineering Simulations
+Aim        :Develop a program that allows the user to input two complex numbers and calculates their sum and difference. This program could be applied in simulations for electrical engineering or physics problems.
+Algorithm 
 Step1.Start
 Step2. Define a structure named `complex`.
 Step3. Declare `real` and `img` as members of the structure.
