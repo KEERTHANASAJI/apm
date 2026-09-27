@@ -1,3 +1,29 @@
+/*
+Name       :Keerthana V
+RollNo     :8
+Date       :
+Q.No       :5
+Title      :Data Cleaning Utility: Remove Duplicates
+Aim        :Create a program that takes a list of customer email addresses (stored in an array) and removes any duplicates, ensuring that each email address is only represented once.
+Algorithm 
+Step1. Start.
+Step2. Declare a two-dimensional character array `e[20][20]`.
+Step3. Read the number of email addresses `n`and email addresses.
+Step4. Initialize `i` to `0`.
+Step5. Check whether `i` is less than `n` if yes step6 else step15.
+Step6. Initialize `j` to `i+1`.
+Step7. Check whether `j` is less than `n` if yes step8 else step13.
+Step8. Compare `e[i]` and `e[j]`.
+Step9. If both emails are equal, remove the duplicate email.
+Step10. Shift the remaining emails one position to the left.
+Step11. Decrement `n` and decrement `j`.
+Step12. Increment `j` and goto step7.
+Step13. Increment `i` and goto step5.
+Step14. Display "No duplicates found" if there are no duplicates.
+Step15. Display the remaining email addresses otherwise.
+Step16.Stop
+
+Code*/
 #include<stdio.h>
 #include<string.h>
 int main(){
