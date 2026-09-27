@@ -1,3 +1,35 @@
+/*
+Name       :Keerthana V
+RollNo     :8
+Date       :
+Q.No       :7
+Title      :Matrix Operations for Financial Modeling
+Aim        :Write a program to perform matrix operations that calculate the row sum, column sum, and diagonal sum of a financial transaction matrix. Additionally, include a function to transpose the matrix for further analysis.
+Algorithm 
+Step1. Start.
+Step2. Declare a matrix `a[10][10]`.
+Step3. Read the number of rows `r`,number of columns `c`and matrix elements.
+Step4. Initialize `rsum` to `0`.
+Step5. Calculate the sum of each row.
+Step6. Display each row sum.
+Step7. Initialize `csum` to `0`.
+Step8. Calculate the sum of each column.
+Step9. Display each column sum.
+Step10. Initialize `t` to `0`.
+Step11. Check the diagonal elements of the matrix.
+Step12. Add the diagonal elements to `t`.
+Step13. Display the trace of the matrix.
+Step14. Call the `transpose()` function.
+Step15. Initialize `i` to `0`.
+Step16. Check whether `i` is less than `c` if yes step19 else step23.
+Step17. Initialize `j` to `0`.
+Step18.Check whether `j` is less than `r` if yes step21 else step22.
+Step19. Display `a[j][i]`.
+Step20. Increment `j`and goto step18.
+Step21. Increment `i` and goto step20.
+Step22. Stop.
+
+Code*/
 #include<stdio.h>
 int i,j,a[10][10];
   int transpose(int r,int c){
