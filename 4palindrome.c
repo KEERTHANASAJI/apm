@@ -1,3 +1,28 @@
+/*
+Name       :Keerthana V
+RollNo     :8
+Date       :
+Q.No       :4
+Title      :Palindrome Checker for Database Records
+Aim        :Write a program to check if a given set of product codes (stored as strings in a database) are palindromes, and generate a report of the results.
+Algorithm 
+Step1. Start.
+2. Declare a two-dimensional character array `str[10][20]`.
+3. Read the number of product codes `n` and product codes.
+4. Initialize `i` to `0`.
+5. Check whether `i` is less than `n`if yes step6 else step15. 
+6. Find the length of the current product code.
+7. Initialize `f` to `1` and  `j` to `0`.
+8. Check whether `j` is less than `len/2`if yes step9 else step11 .
+9. Compare `str[i][j]` with `str[i][len-1]`.
+10. Set `f` to `0` if the characters are equal.
+11. Stop the comparison if `f` becomes `0`.
+12. Display "It is palindrome" if `f` is `0`.
+13. Display "It is not palindrome" otherwise.
+14. Increment `i` and goto step5.
+Step15.Stop
+
+Code*/
 #include<stdio.h>
 #include<string.h>
 int main(){
