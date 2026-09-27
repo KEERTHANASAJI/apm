@@ -4,7 +4,7 @@ RollNo     :8
 Date       :
 Q.No       :11
 Title      :String Manipulation Utility
-Aim        :To write a C program to reverse the words of a sentence using recursion.
+Aim        :Create an application that implements a suite of string functions like concatenation, comparison, and conversion (uppercase to lowercase), which can be applied to a list of user-provided strings.
 Algorithm 
 Step1. Start.
 Step2. Define a function `convert()` to convert a string into lowercase.
